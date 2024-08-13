@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #logo {
+    width: 100px;
+  }
+  
+  #filters {
+    margin: 20px auto;
+  }
+  
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  
+  #hostel-list {
+    margin: 20px auto;
+  }
+  
+  footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

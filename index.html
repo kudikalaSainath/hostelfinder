@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Hostel Finder Logo" id="logo">
+    <h1>Hostel Finder</h1>
+    <div id="filters">
+      <select id="gender-filter">
+        <option value="">All Genders</option>
+        <option value="Boys">Boys</option>
+        <option value="Girls">Girls</option>
+      </select>
+      <input type="text" id="location-filter" placeholder="Location">
+      <button onclick="searchHostels()">Search</button>
+    </div>
+  </header>
+  <main>
+    <div id="map"></div>
+    <div id="hostel-list"></div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Hostel Finder</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+</body>
+</html>
